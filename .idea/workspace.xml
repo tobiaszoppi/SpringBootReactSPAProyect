@@ -4,41 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3371e3-ed7d-4504-b414-6b930db4ccdc" name="Changes" comment="Configuracion para optima comunicacion.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="8a3371e3-ed7d-4504-b414-6b930db4ccdc" name="Changes" comment="Lista para produccion.">
+      <change afterPath="$PROJECT_DIR$/src/ui/src/Utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Customers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/src/pages/Vendors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a40190de1bceb47f6ce76b4d3d56584dc3be705d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a40190de1bceb47f6ce76b4d3d56584dc3be705d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/MetabolomApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/CustomerEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ProductEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ServiceEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/VendorEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/repositories/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/repositories/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/repositories/ServiceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/repositories/VendorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/services/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/services/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/services/ServiceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/services/VendorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/errors/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/errors/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/models/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/models/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/models/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/models/Vendor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/rest/CustomerRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/rest/ProductRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/rest/ServiceRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/web/rest/VendorRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ProductEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ProductEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ServiceEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tobiaszoppi/metabolom/data/entities/ServiceEntity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,44 +57,45 @@
     </option>
   </component>
   <component name="ProjectId" id="2OoZoZ9vAxFxAidRKLfHtW3HduV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tobia/Documents/Proyectos IntelliJ IDE/MetabolomOnline/Metabolom/metabolom/src/main/resources/data.sql&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ef8b2d1d976f8890d4ce83d9c1dfd5ef&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/tobia/Documents/Proyectos IntelliJ IDE/MetabolomOnline/Metabolom",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "ef8b2d1d976f8890d4ce83d9c1dfd5ef",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2",
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;38d0168f-019c-40f9-bfc6-63fac89f1042/schema/\&quot;springreactexample\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "38d0168f-019c-40f9-bfc6-63fac89f1042/schema/\"springreactexample\""
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tobia\Documents\Proyectos IntelliJ IDE\MetabolomOnline\MetabolomProyectFolder" />
@@ -118,6 +122,9 @@
       <data-source id="38d0168f-019c-40f9-bfc6-63fac89f1042" namespace="schema/&quot;springreactexample&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/ui/src/App.js" working-dir="$PROJECT_DIR$/src/ui/src">
+      <method v="2" />
+    </configuration>
     <configuration name="MetabolomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="metabolom" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tobiaszoppi.metabolom.MetabolomApplication" />
@@ -127,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.App.js" />
         <item itemvalue="Database Script.schema.sql (1)" />
         <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Database Script.schema.sql" />
@@ -144,6 +152,8 @@
       <workItem from="1682229072409" duration="93000" />
       <workItem from="1682229190647" duration="6092000" />
       <workItem from="1682235304065" duration="258000" />
+      <workItem from="1682235628340" duration="1016000" />
+      <workItem from="1682290981546" duration="9778000" />
     </task>
     <task id="LOCAL-00001" summary="Configuracion para optima comunicacion.">
       <created>1682234240660</created>
@@ -152,14 +162,26 @@
       <option name="project" value="LOCAL" />
       <updated>1682234240660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primer Commit, Estructur basica de la aplicacion, comunicacion optima con la base de datos">
+      <created>1682236012061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682236012061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Configuracion para optima comunicacion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuracion para optima comunicacion." />
+    <MESSAGE value="Primer Commit, Estructur basica de la aplicacion, comunicacion optima con la base de datos" />
+    <MESSAGE value="Lista para produccion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista para produccion." />
   </component>
 </project>
