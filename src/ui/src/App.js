@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./GlobalStyles";
+import Home from "./pages/home";
+import EsquemaTrabajo from "./components/esquemaTrabajo";
+import Contact from "./components/contact";
+import Extension from "./components/extension";
+import { tema } from "./theme/theme";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import SucessoEmail from "./components/sucessoEmail";
+import Login from "./components/login";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={tema}>
+      <GlobalStyles />
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/esquemaTrabajo" element={<EsquemaTrabajo />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/extension" element={<Extension />} />
+        <Route path="/sucessoEmail" element={<SucessoEmail />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      <Footer/>
+    </ThemeProvider>
   );
 }
 
